@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#ffffff"><meta name="description" content="FinBrief 将经济话题整理成五条重点，让来源类别、日期与可信度标签一起可见。打开示例 Demo，体验更有依据的阅读。">
+<title>FinBrief | 经济新闻，提炼成五条重点</title>
+<link rel="icon" href="assets/finbrief-logo.jpg"><link rel="stylesheet" href="style.css"><script src="app.js" defer></script>
+</head>
+<body id="top">
+<a class="skip" href="#main" data-i18n="skip">跳至正文</a>
+<header class="header wrap">
+<a class="brand" href="#top" aria-label="FinBrief 首页"><span class="logo-icon"><img src="assets/finbrief-logo.jpg" width="1254" height="1254" alt=""></span><span>finbrief</span></a>
+<nav aria-label="主导航"><a href="#preview" data-i18n="navPreview">阅读示例</a><a href="#how" data-i18n="navHow">如何使用</a><a href="#team" data-i18n="navTeam">关于我们</a></nav>
+<button class="language" id="language" aria-label="Switch to English" type="button"><span aria-hidden="true">中 / EN</span></button>
+</header>
+<main id="main" tabindex="-1">
+<section class="hero wrap" aria-labelledby="hero-title">
+<h1 id="hero-title" data-html="headline">经济新闻，<br>提炼成五条重点。</h1>
+<p class="hero-description" data-i18n="heroDescription">新闻、政策和观点混在一起？先看要点，再看来源和日期。</p>
+<a class="primary" id="demo-link" href="https://finbrief-cfd.pages.dev/" target="_blank" rel="noopener noreferrer"><span data-i18n="cta">打开 FinBrief Demo</span><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+<p class="hero-note" data-i18n="heroNote">示例内容演示，在新窗口打开。</p>
+<div class="topics" aria-label="Demo 中的经济话题"><span data-i18n="topic1">新能源汽车补贴</span><span data-i18n="topic2">劳动力成本</span><span data-i18n="topic3">消费需求复苏</span><span data-i18n="topic4">跨境电商监管</span></div>
+</section>
+<section class="preview-section" id="preview" aria-labelledby="preview-title">
+<div class="wrap brief-shell">
+<div class="brief-top"><span class="brief-wordmark">finbrief<span data-i18n="briefLabel">阅读示例</span></span><span class="demo-tag">Demo Build</span></div>
+<div class="brief-heading"><div><h2 id="preview-title" data-i18n="exampleTitle">新能源汽车补贴政策</h2><p class="subject-label" data-i18n="exampleTopic">示例话题</p></div><p data-i18n="previewDescription">先知道该关注什么，<br>再判断信息有多可靠。</p></div>
+<div class="brief-body">
+<div class="brief-points"><div class="list-heading"><h3 data-i18n="pointsTitle">五个要点主题</h3><span data-i18n="readingHint">摘要、来源、日期，一起读</span></div>
+<ol class="points">
+<li><span class="point-number">1</span><div><h4 data-i18n="point1Title">支持方向的变化</h4><p data-i18n="point1Text">关注政策支持的重点，以及它如何影响相关行业。</p><div class="source-meta"><span data-i18n="source1">官方文件类</span><span class="source-date">20 Oct 2026</span></div></div><span class="tier authoritative">Authoritative</span></li>
+<li><span class="point-number">2</span><div><h4 data-i18n="point2Title">地方政策的差异</h4><p data-i18n="point2Text">把地区、适用条件与政策范围放在一起比较。</p><div class="source-meta"><span data-i18n="source2">地方公告类</span><span class="source-date">27 Oct 2026</span></div></div><span class="tier authoritative">Authoritative</span></li>
+<li><span class="point-number">3</span><div><h4 data-i18n="point3Title">价格影响的估计</h4><p data-i18n="point3Text">区分行业估计与已经得到确认的事实。</p><div class="source-meta"><span data-i18n="source3">行业报告类</span><span class="source-date">2 Nov 2026</span></div></div><span class="tier mainstream">Mainstream</span></li>
+<li><span class="point-number">4</span><div><h4 data-i18n="point4Title">细分市场的差别</h4><p data-i18n="point4Text">查看不同价格区间和消费群体是否受到相同影响。</p><div class="source-meta"><span data-i18n="source4">研究摘要类</span><span class="source-date">5 Nov 2026</span></div></div><span class="tier mainstream">Mainstream</span></li>
+<li><span class="point-number">5</span><div><h4 data-i18n="point5Title">尚待核实的判断</h4><p data-i18n="point5Text">保留不确定性，识别值得继续查证的观点。</p><div class="source-meta"><span data-i18n="source5">行业媒体类</span><span class="source-date">8 Nov 2026</span></div></div><span class="tier checking">Needs checking</span></li>
+</ol></div>
+<aside class="reading-guide"><div class="guide-top"><svg viewBox="0 0 28 28" fill="none" aria-hidden="true"><path d="M7 4h14v20H7zM11 9h6M11 14h6M11 19h4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg><h3 data-i18n="guideTitle">让来源跟着要点走</h3></div><p data-i18n="guideText">一条摘要不等于全部事实。来源类别、发布时间和信息质量标签，为你提供继续判断的线索。</p><div class="reading-order"><span data-i18n="order1">看要点</span><span aria-hidden="true">↓</span><span data-i18n="order2">查来源与日期</span><span aria-hidden="true">↓</span><span data-i18n="order3">形成自己的判断</span></div><p class="guide-note" data-i18n="guideNote">完整 Demo 还可按来源类型和时间范围筛选资料。</p></aside>
+</div><p class="preview-note" data-i18n="previewNote">根据公开 Demo 整理的阅读示意，使用示例内容与日期；不代表实时新闻或实际政策。来源标签指类别，不指具体媒体。</p>
+</div>
+</section>
+<section class="source-section wrap" id="sources" aria-labelledby="source-title"><div class="source-intro"><h2 id="source-title" data-html="sourceHeadline">看清信息的依据。</h2><p data-i18n="sourceIntro">不止读结论，也看它从哪里来。FinBrief 将三类信息质量标签放在摘要旁，让不同性质的资料保持区别。</p></div><div class="source-explainer"><p class="control-label" id="label-prompt" data-i18n="labelPrompt">选择一个标签，了解它的含义</p><div class="source-tabs" role="tablist" aria-labelledby="label-prompt"><button type="button" role="tab" id="label-authoritative" aria-controls="label-panel" aria-selected="true" data-label="authoritative">Authoritative</button><button type="button" role="tab" id="label-mainstream" aria-controls="label-panel" aria-selected="false" tabindex="-1" data-label="mainstream">Mainstream</button><button type="button" role="tab" id="label-checking" aria-controls="label-panel" aria-selected="false" tabindex="-1" data-label="checking">Needs checking</button></div><div class="label-panel" id="label-panel" role="tabpanel" aria-labelledby="label-authoritative" tabindex="0"><div aria-live="polite" aria-atomic="true"><h3 id="label-title">先看一手与官方资料</h3><p id="label-description">在这个 Demo 中，该标签对应官方文件、公告等示例类别。阅读时仍应核对原文的适用范围与日期。</p><p class="label-example" id="label-example">示例类别：官方文件、地方公告、统计发布</p></div></div><p class="source-caution" data-i18n="sourceCaution">标签提供阅读线索，不是对内容真实性的保证。</p></div></section>
+<section class="how-section" id="how" aria-labelledby="how-title"><div class="wrap"><div class="how-heading"><h2 id="how-title" data-i18n="howTitle">从一个话题开始。</h2><p data-i18n="howIntro">三步，把阅读范围变得更清楚。</p></div><ol class="steps"><li><span class="step-number">01</span><div><h3 data-i18n="step1Title">输入你关心的话题</h3><p data-i18n="step1Text">进入 Demo，创建本地演示账户；输入经济话题，或选择一个推荐主题。</p></div></li><li><span class="step-number">02</span><div><h3 data-i18n="step2Title">先读五条重点</h3><p data-i18n="step2Text">从简报的 Key points 开始，再查看每条信息的来源类别、日期与标签。</p></div></li><li><span class="step-number">03</span><div><h3 data-i18n="step3Title">筛选，并持续关注</h3><p data-i18n="step3Text">按来源和时间缩小范围。关注一个话题，下次从 Following 中继续阅读。</p></div></li></ol></div></section>
+<section class="questions wrap" aria-labelledby="questions-title"><h2 id="questions-title" data-i18n="questionsTitle">体验前，你可能想知道</h2><div class="faq-list"><details><summary><span data-i18n="faq1Question">这里展示的是真实新闻吗？</span><span class="plus" aria-hidden="true">+</span></summary><p data-i18n="faq1Answer">当前公开版本是 Demo Build。所有结果都是为原型编写的示例内容，来源标签代表资料类别，不是具体媒体署名。请勿将示例当作真实新闻、政策或投资依据。</p></details><details><summary><span data-i18n="faq2Question">需要提供真实个人信息吗？</span><span class="plus" aria-hidden="true">+</span></summary><p data-i18n="faq2Answer">Demo 的账户保存在当前浏览器中，用于演示注册和登录流程，并不提供真实的服务器认证。使用测试资料即可，请不要使用常用密码。</p></details><details><summary><span data-i18n="faq3Question">目前可以体验哪些话题？</span><span class="plus" aria-hidden="true">+</span></summary><p data-i18n="faq3Answer">公开 Demo 包含新能源汽车补贴政策、劳动力成本变化、消费需求复苏和跨境电商监管四个示例话题，可查看要点、筛选资料并关注主题。</p></details></div></section>
+<section class="team-section" id="team" aria-labelledby="team-title"><div class="wrap team-layout"><div class="team-logo"><img src="assets/finbrief-logo.jpg" alt="FinBrief 蓝色叠页与对话气泡标志" width="1254" height="1254" loading="lazy"></div><div class="team-copy"><h2 id="team-title">Crouch Potatoes</h2><p data-i18n="team1">我们是西交利物浦大学 ENT207TC 的七人学生团队。</p><p data-i18n="team2">我们用 FinBrief 探索：怎样让经济信息更简洁，也让阅读依据更透明。</p></div></div></section>
+</main>
+<footer class="footer wrap"><span>finbrief</span><p data-i18n="footer">ENT207TC 学生项目 / Demo Build / 示例内容</p><a href="#top" data-i18n="backTop">返回顶部</a></footer>
+</body></html>
